@@ -1,5 +1,7 @@
 package com.ms.email.controllers;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,7 +14,6 @@ import com.ms.email.dtos.EmailDto;
 import com.ms.email.models.EmailModel;
 import com.ms.email.services.EmailService;
 
-import jakarta.validation.Valid;
 
 @RestController
 public class EmailController {
